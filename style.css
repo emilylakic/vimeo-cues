@@ -1,1 +1,12 @@
-
+//Change video - use full stops
+.changeVideo { 
+  font-size: 16px;
+  height: 30px;
+}
+.submitButton { 
+    width: 100%; //keep screen mobile-friendly
+    background-color: #1cb8e8; //color of submit box
+    border: 2px solid #cfe6ef; //include border around submit box
+    font-size: 14px;
+    transition-duration: 0.2s; //hover - included additional CSS for hover fxn
+}
