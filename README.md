@@ -3,7 +3,7 @@ Construction of Cues for Vimeo Video Player
 
 ## Conditions
 An interface for the user to add Cues at certain timestamps.
-    - Should also list the Cues that have been added and allow them to be deleted.
+- Should also list the Cues that have been added and allow them to be deleted.
 - While playing the video surface the Cues at the correct times and hide after a duration.
 - A Cue only needs to contain a string.
 - The messages should be displayed as an overlay on the player itself.
