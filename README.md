@@ -23,5 +23,5 @@ Not required but for fun!
 - Use some persistent storage.
 - Allow changing the video (which should also change the Cues associated with the video).
 
-# Where to Demo
+# Demo
 https://emilylakic.github.io/vimeo-cues/
