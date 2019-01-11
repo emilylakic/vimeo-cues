@@ -56,5 +56,5 @@
     transition-duration: 0.2s; //hover - included additional CSS for hover fxn
 }
 .instructions { 
-  font-style: Arial;
+  font-family: Arial;
 }
