@@ -27,6 +27,36 @@
     <center><input id="textStyle" value="250512037" type="text"></center>
     <center><button onclick="videoPlayback()" id="submitButton">Enter</button></center>
   </div>
-</body>
   
+  <div id="vidInterface">
+    <!--Show video interface on left side of screen-->
+    <div class="exitStage"> <!--exit stage left-->
+    <!--Cue Display-->
+      <div id="displayCue">
+        <a id="cueLink" href="" target="_blank"></a>
+        <p id="par"></p>
+      </div>
+    <!--Video Wrapper-->
+       <div id="videoWrapper">
+       </div>
+    <!--Error Message-->
+        <p id="errorMessage"></p>
+        </div>
+    
+    <!--Cue Interface on right side of screen-->
+     <div class="right">
+       <div class="cueFxn">
+         <textarea id="inputText" placeholder="Cue"></textarea>
+         <textarea id="inputTime" placeholder="mm:ss Time"></textarea>
+         <button id="cueButton" onclick="addCue()"><span>Add Cue</span></button>
+       </div>
+       <div class="cueWrapper" id="wrapper">
+         <p>Cues</p>
+        </div>
+         <div class="options">
+           <button id="restartButton" onclick="restartApp()">Choose Another Video</button>
+          </div>
+        </div>
+      </div>
+</body>
 </html>  
