@@ -1,4 +1,4 @@
-/*Javascript program created by Emily Lakic, Jan. 2019*/
+/*Javascript program, Emily Lakic, Jan. 2019*/
 
 //VARIABLES
 
