@@ -93,7 +93,7 @@
 #headerStyle { 
   /*height: 7px;*/
   margin-top: 100px;
-  width: 100%;
+  width: 40%;
 }
 #submitButton { 
     width: 100px;
@@ -103,6 +103,6 @@
 }
 #instructions { 
   font-family: Welcome;
-  font-size: 20px;
+  font-size: 25px;
   color: black;
 }
