@@ -39,6 +39,11 @@
   animation-name: pulse;
 }
 
+@font-face {
+	    font-family: Welcome;
+	    src: url(Welcome.otf);
+    }
+
 /*Change video - use full stops*/
 
 #changeVideo { 
