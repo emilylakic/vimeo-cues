@@ -98,6 +98,7 @@
 }
 #submitButton { 
     width: 100px;
+    margin-bottom: -50px;
     background-color: #1cb8e8; //color of submit box
     border: 2px solid #cfe6ef; //include border around submit box
     font-size: 14px;
