@@ -14,7 +14,7 @@ An interface for the user to add Cues at certain timestamps.
 ## Resources
 
 - The player embed api: https://github.com/vimeo/player.js and a demo here: https://player.vimeo.com/api/demo
-- Refer back to two example images provided with assessment
+- Refer back to two example images provided with assessment, see [example_1.jpg](./example_1.jpg) and see [example_2.jpg](./example_2.jpg)
 
 ## Bonus Features
 Not required but for fun!
