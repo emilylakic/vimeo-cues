@@ -1,6 +1,6 @@
 /*Javascript program, Emily Lakic, Jan. 2019*/
 
-//VARIABLES
+//VARIABLES//
 
 //cue
 var text;
