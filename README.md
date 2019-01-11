@@ -1,4 +1,4 @@
-# Project for Vimeo Internship
+# Video Player Cues
 Construction of Cues for Vimeo Video Player
 
 ## Conditions
