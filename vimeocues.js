@@ -29,4 +29,6 @@ function videoPlayback() {
     vidCode = document.getElementById("code").value;
     vidOptions = {id: videoCode};
     videoPlayer = new Vimeo.Player('introVid', vidOptions);
-};
+}
+
+
