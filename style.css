@@ -55,3 +55,6 @@
     font-size: 14px;
     transition-duration: 0.2s; //hover - included additional CSS for hover fxn
 }
+.instructions { 
+  font-style: Arial;
+}
