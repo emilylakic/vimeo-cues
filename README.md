@@ -1,9 +1,9 @@
 # Vimeo Internship Project
 Construction of Cues for Vimeo Video Player
 
-# Conditions:
+# Conditions
 
-# Bonus Features:
+# Bonus Features
 
-# Where to Demo: 
+# Where to Demo
 https://emilylakic.github.io/vimeo-cues/
