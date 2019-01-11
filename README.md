@@ -1,4 +1,4 @@
-# First Project for Vimeo Internship
+# First Project for Vimeo Internship!
 Construction of Cues for Vimeo Video Player
 
 ## Conditions
