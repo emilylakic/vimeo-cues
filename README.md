@@ -1,2 +1,2 @@
 # vimeo-cues
-Internship Project
+Construction of Cues for Vimeo Video Player
