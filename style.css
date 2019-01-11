@@ -79,6 +79,11 @@
   animation-name: rubberBand;
 }
 
+@font-face {
+  font-family: Welcome; 
+  src: url(Welcome.otf);
+}
+
 /*Change video - use full stops*/
 
 #changeVideo { 
@@ -97,7 +102,7 @@
     font-size: 14px;
 }
 #instructions { 
-  font-family: Arial;
+  font-family: Welcome;
   font-size: 20px;
   color: black;
 }
