@@ -15,3 +15,9 @@ var duration;
 //comparing cue and player time
 var currentcueTime;
 var time;
+
+//TRANSITION FROM HOMESCREEN TO VIDEO 
+
+//Implement videoPlayer with onclick videoPlayback()
+function videoPlayback() { 
+};
