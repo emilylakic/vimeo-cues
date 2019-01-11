@@ -1,4 +1,4 @@
-/*Javascript program, Emily Lakic, Jan. 2019*/
+/*Javascript program, Jan. 2019, Emily Lakic*/
 
 //VARIABLES//
 
