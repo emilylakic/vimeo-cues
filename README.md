@@ -9,7 +9,7 @@ An interface for the user to add Cues at certain timestamps.
 - The messages should be displayed as an overlay on the player itself.
 - Only use vanilla javascript and please write all your own CSS.
 - Avoid using cue point related player API methods (`addCuePoint`, `removeCuePoint`, `getCuePoints`).
-- Ensure code is well documented
+- Ensure code is well documented.
 
 ## Resources
 
@@ -19,7 +19,7 @@ An interface for the user to add Cues at certain timestamps.
 Not required but for fun!
 
 - Customization, background color, width, font size, duration shown etc.
-- Cues can be different types like a link, image
+- Cues can be different types like a link, image, etc.
 - Use some persistent storage.
 - Allow changing the video (which should also change the Cues associated with the video).
 
