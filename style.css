@@ -84,6 +84,10 @@
   font-family: Alvaro;
   src: url(Alvaro.otf);
 }
+@font-face { 
+  font-family: DolceVitaLight;
+  src: url(DolceVitaLight.ttf);
+}
 /*Change video - use full stops*/
 #changeVideo { 
   font-size: 16px;
@@ -235,7 +239,7 @@
     background-color: white;
 }
 #instructions { 
-  font-family: Alvaro; /*end up changing font to a better one than Welcome*/
+  font-family: DolceVitaLight; /*end up changing font to a better one than Welcome*/
   font-size: 40px;
   color: black;
 }
