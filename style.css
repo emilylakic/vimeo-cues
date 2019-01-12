@@ -36,7 +36,6 @@
     transform: scale3d(1, 1, 1);
   }
 }
-
 @keyframes rubberBand {
   from {
     -webkit-transform: scale3d(1, 1, 1);
@@ -73,24 +72,19 @@
     transform: scale3d(1, 1, 1);
   }
 }
-
 .rubberBand {
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
 }
-
 @font-face {
   font-family: Welcome; 
   src: url(Welcome.otf);
 }
-
 @font-face { 
   font-family: Alvaro;
   src: url(Alvaro.otf);
 }
-
 /*Change video - use full stops*/
-
 #changeVideo { 
   font-size: 16px;
   height: 10px;
@@ -101,12 +95,144 @@
   width: 40%;
   height: 40%;
 }
+#vidInterface { 
+  display: none;
+}
+.exitStage { 
+  padding-top: 8px;
+  display: inline-block;
+}
+#displayCue {
+    margin: 15px;
+    padding: 15px;
+    z-index: 2;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    display: none;
+    max-width: 580px;
+}
+#displayCue #par {
+    display: inline;
+}
+.right {
+    display: inline-block;
+    vertical-align: top;
+}
+.cueFxn {
+    text-align: right;
+}
+#inputText {
+    margin: 5px;
+    padding: 5px;
+    display: block;
+    font-size: 14px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    height: 100px;
+    width: 250px;
+    resize: none;
+    background-color: #cfe6ef;
+}
+#inputTime {
+    margin: 5px;
+    padding: 5px;
+    display: block;
+    font-size: 14px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    height: 50px;
+    width: 250px;
+    resize: none;
+}
+#cueButton {
+    width: 100px;
+    margin-right: 5px;
+    background-color: #cfe6ef;
+    border: 2px solid #cfe6ef;
+    font-size: 14px;
+    transition-duration: 0.4s;
+}
+#cueButton:hover {
+    background-color: white;
+}
+#cueButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+#cueButton span:after {
+    content: '\2039';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -15px;
+    transition: 0.5s;
+}
+#cueButton:hover span {
+    padding-left: 20px;
+}
+#cueButton:hover span:after {
+    opacity: 1;
+    left: 0;
+}
+.options {
+    display: inline-block;
+    vertical-align: bottom;
+}
+#restartButton {
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 160px;
+    background-color: white;
+    border: 2px solid #cfe6ef;
+    font-size: 14px;
+    transition-duration: 0.4s;
+}
+#restartButton:hover {
+    background-color: #cfe6ef;
+}
+#textStyle {
+    height: 20px;
+    font-size: 14px;
+}
+.cueWrapper {
+    margin: 5px;
+}
+.cueWrapper {
+    margin-bottom: 15px;
+    background-color: #cfe6ef;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    width: 260px;
+}
+.cueWrapper .textBlock{
+    margin: 5px;
+}
+.cueWrapper .timeBlock {
+    margin: 1px;
+    text-align: right;
+}
+.cueWrapper .deleteButton {
+    float: right;
+    margin-top: -2px;
+    margin-right: 2px;
+    color: darkgrey;
+    cursor: pointer;
+}
+.cueWrapper .deleteButton:hover {
+    color: black;
+}
 #submitButton { 
     width: 100px;
     margin-bottom: -50px;
     background-color: #1cb8e8; //color of submit box
     border: 2px solid #cfe6ef; //include border around submit box
     font-size: 14px;
+}
+#submitButton:hover {
+    background-color: white;
 }
 #instructions { 
   font-family: Alvaro; /*end up changing font to a better one than Welcome*/
