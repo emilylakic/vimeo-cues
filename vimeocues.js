@@ -21,9 +21,9 @@ var cTime; //current time
 //FUNCTION: VIDEOPLAYBACK()
 //Implement videoPlayer with onclick videoPlayback()
 function videoPlayback() { 
-    var vid = document.createElement("vid");
-    vid.id = "introVid";
-    document.getElementById("videoWrapper").appendChild(vid);
+    var div = document.createElement("div");
+    div.id = "introVid";
+    document.getElementById("videoWrapper").appendChild(div);
     var vidCode = document.getElementById("code").value;
     var vidOptions = {id: videoCode};
     videoPlayer = new Vimeo.Player('introVid', vidOptions);
@@ -75,7 +75,7 @@ function restartApp() {
     for (var i = 0; i < toDelete.length; i++) {
         toDelete[i].parentNode.removeChild(toDelete[i]);
     }
-    document.getElementById("main-video").remove();
+    document.getElementById("introVid").remove();
     document.getElementById("displayCue").style.display = "none";
 }
 
