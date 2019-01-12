@@ -100,13 +100,15 @@ function addCue() {
 
 function validCue(cueTimeInt) {
     if (text == "") {
-        document.getElementById("errorMessage").innerHTML = "Please enter a message for the cue!";
+        var str = "Error: Missing Cue Text";
+        var res = str.fontcolor("red");
+        document.getElementById("errorMessage").innerHTML = res;
         return false;
     } else if (!(/^\d{2}:\d{2}$/.test(cueTime))){
-        document.getElementById("errorMessage").innerHTML = "Please make sure time is in mm:ss format!";
+        document.getElementById("errorMessage").innerHTML = "Time must be in mm:ss";
         return false;
     } else if (cueTimeInt < 0 || cueTimeInt > vidDuration) {
-        document.getElementById("errorMessage").innerHTML = "Time can not be less than 0 or greater than the video's duration!";
+        document.getElementById("errorMessage").innerHTML = "Time must be greater than 0 or less than the duration of the video";
         return false;
     }
     document.getElementById("errorMessage").innerHTML = "";
