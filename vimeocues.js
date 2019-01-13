@@ -24,7 +24,7 @@ function videoPlayback() {
     var div = document.createElement("div");
     div.id = "introVid";
     document.getElementById("videoWrapper").appendChild(div);
-    var vidCode = document.getElementById("code").value;
+    var vidCode = document.getElementById("textStyle").value;
     var vidOptions = {id: videoCode};
     videoPlayer = new Vimeo.Player('introVid', vidOptions);
     document.getElementById("changeVideo").style.display = "none"; //to go from main to actual video
