@@ -155,10 +155,10 @@
 #cueButton {
     width: 100px;
     margin-right: 5px;
-    background-color: #cfe6ef;
-    border: 2px solid #cfe6ef;
+    background-color: ##1cbaeb;
+    border: 2px solid #d5d5d5;
     font-size: 14px;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
 }
 #cueButton:hover {
     background-color: white;
