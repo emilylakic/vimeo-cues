@@ -92,6 +92,10 @@
   font-family: CaviarDreams;
   src: url(CaviarDreams.ttf);
 }
+@font-face { 
+  font-fmily: LemonMilk;
+  src: url(LemonMilk.otf);
+}
 /*Change video - use full stops*/
 #changeVideo { 
   font-size: 16px;
@@ -247,4 +251,7 @@
   font-size: 40px;
   margin-top: -20px;
   color: black;
+}
+#lemonmilk { 
+  font-family: LemonMilk;
 }
