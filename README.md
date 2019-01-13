@@ -20,7 +20,7 @@ An interface for the user to add Cues at certain timestamps.
 Not required but for fun!
 
 - [x] Customization, background color, width, font size, duration shown etc.
-- [x] Cues can be different types like a link, image, etc.
+- [] Cues can be different types like a link, image, etc.
 - [x] Use some persistent storage.
 - [x] Allow changing the video (which should also change the Cues associated with the video).
 
