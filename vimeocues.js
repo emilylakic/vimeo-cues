@@ -25,9 +25,7 @@ function videoPlayback() {
     div.id = "introVid";
     document.getElementById("videoWrapper").appendChild(div);
     var vidCode = document.getElementById("textStyle").value;
-    var vidOptions = {
-        id: vidCode
-    };
+    var vidOptions = { id: vidCode };
     videoPlayer = new Vimeo.Player('introVid', vidOptions);
     document.getElementById("changeVideo").style.display = "none"; //to go from main to actual video
     document.getElementById("vidInterface").style.display = "block";
@@ -104,17 +102,21 @@ function addCue() {
     }
 }
 
-function validCue(cueTimeInt) {
-    if (text == "") {
+function validCue(cueTimeInt){
+    if (text == ""){
         var str = "Error: Missing Cue Text";
         var res = str.fontcolor("red");
         document.getElementById("errorMessage").innerHTML = res;
         return false;
     } else if (!(/^\d{2}:\d{2}$/.test(cueTime))){
-        document.getElementById("errorMessage").innerHTML = "Time must be in mm:ss";
+        var stri = "Time must be in mm:ss";
+        var resu = stri.fontcolor("red");
+        document.getElementById("errorMessage").innerHTML = resu;
         return false;
-    } else if (cueTimeInt < 0 || cueTimeInt > vidDuration) {
-        document.getElementById("errorMessage").innerHTML = "Time must be greater than 0 or less than the duration of the video";
+    } else if (cueTimeInt < 0 || cueTimeInt>vidDuration){
+        var strin = "Time must be greater than 0 or less than the duration of the video";
+        var resul = strin.fontcolor("red");
+        document.getElementById("errorMessage").innerHTML = resul; 
         return false;
     }
     document.getElementById("errorMessage").innerHTML = "";
@@ -170,7 +172,5 @@ function isURL(str) {
         str = "http://" + str;
         cueText = str;
     }
-
     return /^http./.test(str);
 }
-
