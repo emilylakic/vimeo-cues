@@ -31,7 +31,11 @@ function videoPlayback() {
     videoPlayer = new Vimeo.Player('introVid', vidOptions);
     document.getElementById("changeVideo").style.display = "none"; //to go from main to actual video
     document.getElementById("vidInterface").style.display = "block";
-    videoPlayer.getDuration().then(function(duration) {vidDuration = duration;}).catch(function(error) {}); //getDuration provided w Vimeo Javascript sheet
+    videoPlayer.getDuration().then(function(duration) {
+        vidDuration = duration;
+    }).catch(function(error) {
+    
+    }); //getDuration provided w Vimeo Javascript sheet
     videoPlayer.on('play', function(data) {
         videoPlayer.getCurrentTime().then(function(seconds) { //getDuration and getCurrentTime fxn's of Javascript
             cTime = seconds;
