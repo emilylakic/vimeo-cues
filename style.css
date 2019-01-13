@@ -255,3 +255,11 @@
 #lemonmilk { 
   font-family: LemonMilk;
 }
+.fade
+{
+        opacity:0.5;
+}
+.fade:hover
+{
+        opacity:1;
+}
