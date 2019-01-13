@@ -236,7 +236,7 @@
     margin-bottom: -20px;
     background-color: #1cb8e8; //color of submit box
     border: 2px solid #cfe6ef; //include border around submit box
-    font-size: 18px;
+    font-size: 30px;
     font-family: CaviarDreams;
 }
 #submitButton:hover {
