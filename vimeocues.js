@@ -159,14 +159,17 @@ function addRemoveButton() {
     number++;
 }
 
-function removeCue(removed) {
-    videoPlayer.removeCuePoint(removed).then(function(id) { //removeCuePoint within Vimeo Javascript
+function removeCue(removedCue) {
+    videoPlayer.removeCuePoint(removedCue).then(function(id) { //removeCuePoint within Vimeo Javascript
         console.log('cue removed');
     });
 }
 
-//How to detect whether a string is in URL format using Javascript
-function isUrl(s) {
-   var regexp = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/
-   return regexp.test(s);
+function isURL(str) {
+    if (/^www./.test(str)) {
+        str = "http://" + str;
+        cueText = str;
+    }
+
+    return /^http./.test(str);
 }
