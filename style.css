@@ -240,5 +240,6 @@
 #instructions { 
   font-family: DolceVitaLight; /*end up changing font to a better one than Welcome*/
   font-size: 40px;
+  margin-top: -40px;
   color: black;
 }
