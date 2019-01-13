@@ -16,14 +16,33 @@
     body { 
       background-color: white;
     }
+  #mainImage {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#mainImage img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
   </style>
 </head>
   
 <body>
   <!--Bonus: allow changing the video-->
   <div id="changeVideo">
-    <center><img class="pulse" id="headerStyle" src="ight.png" alt="Header"></center>
-    <center><p class="pulse" id="instructions">Enter Video Code</p></center>
+    <div id="mainImage">
+    <img src="ight.png" alt=""> <!--class="pulse" id="headerStyle"-->
+  </div>
+<center><p class="pulse" id="instructions">Enter Video Code</p></center>
     <center><input id="textStyle" value="250512037" type="text"></center>
     <center><button id="submitButton" onclick="videoPlayback()">Go!</button></center>
   </div>
