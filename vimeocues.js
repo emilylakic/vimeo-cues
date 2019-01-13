@@ -77,7 +77,7 @@ function videoPlayback() {
 function restartApp() {
     document.getElementById("changeVideo").style.display = "block";
     document.getElementById("vidInterface").style.display = "none";
-    var toDelete = document.querySelectorAll(".cue-wrapper");
+    var toDelete = document.querySelectorAll(".cueWrapper");
     for (var i = 0; i < toDelete.length; i++) {
         toDelete[i].parentNode.removeChild(toDelete[i]);
     }
