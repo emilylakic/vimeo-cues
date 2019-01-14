@@ -34,12 +34,13 @@ function videoPlayback() {
     }).catch(function(error) {
     
     }); //getDuration provided w Vimeo Javascript sheet
-    videoPlayer.on('play', function(data) {
-        videoPlayer.getCurrentTime().then(function(seconds) { //getDuration and getCurrentTime fxn's of Javascript
+    videoPlayer.on('play', function(data){
+        videoPlayer.getCurrentTime().then(function(seconds){ //getDuration and getCurrentTime fxn's of Javascript
             cTime = seconds;
+            
         });
     videoPlayer.getCuePoints().then(function(cuePoints) {
-            if (cuePoints[0] && cuePoints[0].time == 0 && cTime == 0) {
+            if (cuePoints[0] && cuePoints[0].time==0 && cTime==0) {
                 document.getElementById("par").innerHTML = cuePoints[0].data.customKey;
                 document.getElementById("par").style.display = "inline";
                 document.getElementById("cueLink").style.display = "none";
@@ -76,7 +77,7 @@ function restartApp() {
     document.getElementById("changeVideo").style.display = "block";
     document.getElementById("vidInterface").style.display = "none";
     var toDelete = document.querySelectorAll(".cueWrapper");
-    for (var i = 0; i < toDelete.length; i++) {
+    for (var i=0; i<toDelete.length; i++){
         toDelete[i].parentNode.removeChild(toDelete[i]);
     }
     document.getElementById("introVid").remove();
