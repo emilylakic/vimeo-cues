@@ -165,7 +165,7 @@
     font-size: 14px;
     transition-duration: 0.3s;
 }
-#cueButton:hover {
+/*#cueButton:hover {
     background-color: white;
 }
 #cueButton span {
@@ -188,7 +188,8 @@
 #cueButton:hover span:after {
     opacity: 1;
     left: 0;
-}
+}*/
+
 .options {
     display: inline-block;
     vertical-align: bottom;
